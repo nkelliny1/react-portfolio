@@ -1,0 +1,44 @@
+body{
+  background-image: url('../images/spikes.png');
+}
+.mainContent{
+    margin-top: 20px;
+}
+.navbarLeft{
+    flex-grow: 0;
+}
+.profile-img{
+  float: left;
+  margin-right: 20px;
+}
+
+.card{
+  background-color: #4aaaa5 !important; 
+  color: #fff !important;
+}
+
+.navbar-brand{
+  background-color: #4aaaa5 !important;
+  color: white !important; 
+  padding: 10px !important;
+  margin-top: -8px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .text-muted{
+    margin-left: 42%;
+  }
